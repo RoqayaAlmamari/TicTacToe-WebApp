@@ -1,3 +1,4 @@
+/* Set the background color, font family and font color for the entire page */
 body {
   background-color: #f8e8d4;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,12 +7,13 @@ body {
   background-repeat: repeat;
 }
 
+/* Center the heading and give it some margin from the top */
 h1 {
   text-align: center;
   margin-top: 50px;
 }
 
-
+/* Set the styles for the board container */
 #board {
   margin: auto;
   margin-top: auto;
@@ -24,6 +26,7 @@ h1 {
   box-shadow: 2px 2px #3d405b;
 }
 
+/* Set the styles for each square on the board */
 .square {
   display: inline-block;
   width: 120px;
@@ -39,18 +42,22 @@ h1 {
   cursor: pointer;
 }
 
+/* Set the hover styles for each square */
 .square:hover {
   background-color: #e76f51;
 }
 
+/* Set the styles for squares with "X" */
 .square.x {
   color: #f4a261;
 }
 
+/* Set the styles for squares with "O" */
 .square.o {
   color: #3d405b;
 }
 
+/* Set the styles for the reset button */
 #reset-button {
   margin: 20px auto;
   display: block;
@@ -63,10 +70,12 @@ h1 {
   cursor: pointer;
 }
 
+/* Set the hover styles for the reset button */
 #reset-button:hover {
   background-color: #e76f51;
 }
 
+/* Set the styles for the winner label */
 #winner-label {
   text-align: center;
   margin-top: 20px;
@@ -74,4 +83,3 @@ h1 {
   font-weight: bold;
   color: #e76f51;
 }
-

@@ -1,0 +1,77 @@
+body {
+  background-color: #f8e8d4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3d405b;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#board {
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #3d405b;
+  box-shadow: 2px 2px #3d405b;
+}
+
+.square {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #e76f51;
+}
+
+.square.x {
+  color: #f4a261;
+}
+
+.square.o {
+  color: #3d405b;
+}
+
+#reset-button {
+  margin: 20px auto;
+  display: block;
+  background-color: #3d405b;
+  color: #fff8f0;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset-button:hover {
+  background-color: #e76f51;
+}
+
+#winner-label {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e76f51;
+}
+
